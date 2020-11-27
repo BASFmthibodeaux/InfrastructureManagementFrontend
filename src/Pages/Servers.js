@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
+import { DataTable } from "../Components/Table/table.component"
 
 export const Servers = () => {
-  return (
-    <div className='servers'>
-      <h1>All Servers React Data-tables</h1>
-    </div>
-  );
+
+  return(
+    <DataTable/>
+  )
 }

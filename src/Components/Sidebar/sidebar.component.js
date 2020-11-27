@@ -19,7 +19,7 @@ export const Sidebar = () => {
           <Link to='#' className='menu-bars'>
             <GrIcons.GrDxc onClick={showSidebar} />
           </Link>
-          <Searchbar/>
+          
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>      
@@ -44,4 +44,3 @@ export const Sidebar = () => {
     </>
   );
 }
-
